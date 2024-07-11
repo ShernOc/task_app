@@ -1,0 +1,22 @@
+SETTING UP : 
+- Install tailwind
+- add custom font: 
+Create the files  touch index.html, index.js, main.css and task.json 
+- Add icon: 
+1. You use the cdm(tailwind) and add them in the headtags
+- <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+2. Go to google font; get the font you want = get font= embend code = copy the link
+
+3. Add an icon: 1. create a span element and give it a class "material-icon"  eg; 
+- find the icon (add) : Google icons cdn links 
+
+1. Go to tailwind 
+Tailwind install <npm install -D tailwindcss> on the directory you are working on. 
+npm install -D tailwindcss - 
+<script src="https://cdn.tailwindcss.com"></script> // have it on the header at the html. 
+-"devDependencies": {
+    "tailwindcss": "^3.4.4"
+  }
+
+to center the div : Padding, flexbox, margin, 
