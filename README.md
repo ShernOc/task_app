@@ -1,2 +1,2 @@
 # task_app
-Simple to do application
+Simple to-do application
