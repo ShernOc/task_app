@@ -6,6 +6,7 @@
   <title>Practice Tailwind/json</title>
   <!-- css link -->
     <link rel="stylesheet" href="./main.css">
+    <link href="./output.css" rel="stylesheet">
     <!-- cdn tailwind not recommended due to wifi issues-->
     <script src="https://cdn.tailwindcss.com"></script> 
   <link href="https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -23,14 +24,41 @@
     <!-- first div- Container has the buttons and  incomplete tasks -->
     <div class=" border border-blue-500 pt-10" >
       <!-- button for Add new Tasks -->
-      <button class="border w-full p-4 flex gap-4 rounded-lg hover:border-black">
-        <span class="material-icons">add</span>Add New Task </button>
+      <button class="border w-full p-4 flex gap-4 rounded-lg hover:border-black text-grey-500 hover: text-black font-semibold"> 
+        <span class="material-icons">add</span>Add New Task </button> 
       <!-- container for actual task -->
-      <div class="border border-black-500 pt-20"></div>
+      <div class="border border-black-500 flex flex-col">
+        <div class=" border w-full flex items-center justify-between p-4 hover:bg-gray-100 rounded-md">
+          <!-- content  -->
+          <div class="flex items-center gap-4 ">
+            <!-- checkbox -->
+            <input type="checkbox" class="size-4 accent-green-600">
+            <!-- What will hold the words -->
+            <p class="flex text-lg">Apply basic styling</p>
+            </div>
+          <!-- delete icon  -->
+          <div class="">
+            <span class="material-icons">delete</span>
+          </div>
+        </div>
+        <div class=" border w-full flex items-center justify-between p-4 hover:bg-gray-100 rounded-md">
+          <!-- content  -->
+          <div class=" flex items-center gap-4">
+            <!-- checkbox -->
+            <input type="checkbox" class="size-4 accent-green-600">
+            <!-- What will hold the words -->
+            <p class="flex text-lg">Apply basic styling</p>
+          </div>
+          <!-- delete icon  -->
+          <div class="">
+            <span class="material-icons">delete</span>
+          </div>
+        </div>
+      </div>
     </div>   
 
     <!---second div - Container for (heading and completed tasks )-->
-     <div class="border border-green-500"> 
+     <div class="border border-green-500 mt-20"> 
        <!-- heading for Completed tasks  -->
      <h1>Completed Tasks</h1>
       <div class="border border-red-500"></div>
