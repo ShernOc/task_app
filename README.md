@@ -1,2 +1,3 @@
-# task_app
-Simple to-do application
+# TO DO LIST APP 
+
+This is a simple to do list App that allows 
